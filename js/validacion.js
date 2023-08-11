@@ -16,7 +16,7 @@ document.getElementById("regBtn").addEventListener("click", function (){
     const password1= document.querySelector("#password1").value;
     const password2= document.querySelector("#password2").value;
 
-    if(email )
+    
 
     if (nombre === "" || apellido === "" || email === "" || password1 === "" || password2 === "" || !checkboxInput) {
       showAlertError();
